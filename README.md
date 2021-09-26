@@ -27,6 +27,7 @@
     :class="{ selected: item.selected }"
     @click.native="selectedVideoElem(index)"
 />
+
 <script>
 export default {
 	data() {
